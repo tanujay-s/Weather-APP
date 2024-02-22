@@ -1,4 +1,4 @@
-const APIKey = process.env.WEATHER_API_KEY;;
+const APIKey = '4013a28adb1813572948e604b2320fd7';
 const myForm = document.getElementById('myForm');
 const myInput = document.getElementById('myInput');
 const loc = document.getElementById('location');
