@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #dbdbdb;
+}
+.container{
+    position: relative;
+    height: 80px;/* 80px*/
+    width: 300px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    /*animation: swap 4s ease forwards;*/
+}
+@keyframes swap {
+    from {height: 80px;}
+    to {height: 400px;}   
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.inputBox{
+    height: 30px;
+    width: 190px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputBox:hover{
+    background-color: #e0e1dd;
+    border-radius: 15px;
+    color: #1b263b;
+}
+button{
+    color: #457b9d;
+    background: #a8dadc;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: none;
+}
+button:hover {
+    background-color: #1d3557;
+}
+.report h2{
+    text-align: center;
+    margin-top: 25px;
+    color: #1b263b;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.temp{
+    height: 50px;
+    width: auto;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b263b;
+    font-weight: 700;
+}
+.degree{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b263b;
+    font-weight: 800;
+}
+.description{
+    margin-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b263b;
+    font-size: 20px;
+    font-weight: 700;
+}
+.feelsLike{
+    margin-top: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b263b;
+    font-size: 20px;
+    font-weight: 700;
+}
+.newCont{
+    margin-top: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+.humidity{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b263b;
+    font-weight: 700;
+}
+.wind{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b263b;
+    font-weight: 700;
+}
+.newH{
+    display: flex;
+    align-items: center;
+
+    height: 70px;
+    width: 120px;
+}
+.newW{
+    display: flex;
+    align-items: center;
+
+    height: 70px;
+    width: 120px; 
+}
+.Hitales{
+    margin-left: 10px;
+}
+.Witales{
+    margin-left: 10px;
+}
+.humidLabel{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #1b263b;
+}
+.windLabel{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #1b263b;
+}
+.Wicon{
+    font-size: 30px;
+}
+.Hicon{
+    font-size: 30px;
+}
