@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>MY Weather</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d3aa2aab48.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+      <div class="container" id="container">
+          <form class="form" id="myForm">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" class="inputBox" id="myInput" placeholder="Enter Your Location">
+            <button class="fa-solid fa-magnifying-glass" id="button"></button>
+          </form>
+
+        <div class="report" id="fetchedValues">
+          <h2 class="loc" id="location"></h2>
+          <div>
+            <span class="temp" id="temp"></span>
+            <span class="degree">&deg;C</span>
+          </div>
+          <div class="description" id="description"></div>
+          <div class="feelsLike" id="feelsLike"></div>
+          <div class="newCont">
+            <div class="newH">
+              <div class="Hicon">
+                <span class="fa-solid fa-water"></span>
+              </div>
+              <div class="Hitales">
+                <span  class="humidity" id="humidity"></span>
+                <span class="humidLabel">Humidity</span>
+              </div>
+            </div>
+            <div class="newW">
+              <div class="Wicon">
+                <span class="fa-solid fa-wind"></span>
+              </div>
+              <div class="Witales">
+                <span class="wind" id="wind"></span>
+                <span class="windLabel">Wind Speed</span>
+              </div>           
+            </div>
+          </div>
+        
+          
+        </div>
+      </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
